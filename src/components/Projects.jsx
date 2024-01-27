@@ -12,7 +12,7 @@ const Projects = () => {
                         <p>This MERN-based School Management System offers user-specific features, allowing seamless login experiences for administrators, teachers, and students. Users can access tailored functionalities based on their roles, enhancing the overall user experience.</p>
                     </div> 
                     <div className="view">
-                       <a href="https://dainty-pastelito-c6d2ee.netlify.app" target="_blank" rel="noopener noreferrer">View...</a>
+                       <a href="https://vickyschoolmanagement.netlify.app" target="_blank" rel="noopener noreferrer">View...</a>
                        <a href="https://github.com/Vicky-Kushwaha?tab=repositories" target="_blank" rel="noopener noreferrer"><img src="images/code.png" alt="code" width="30" /></a> 
                     </div>                  
                </div>
