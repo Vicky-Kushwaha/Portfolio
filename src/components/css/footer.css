@@ -1,0 +1,31 @@
+
+footer{
+	background-color: #0b1e3b;
+	min-height: 8rem;
+}
+
+.scroll_home{
+	text-align: center;
+}
+
+
+footer img{
+	filter: invert(100%);
+}
+
+.contact_logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+}
+
+.contact_logo div{
+	padding: 0.4rem 2rem;
+}
+
+.copy_right{
+	text-align: center;
+	padding: 1rem;
+	margin-bottom: 0;
+}
