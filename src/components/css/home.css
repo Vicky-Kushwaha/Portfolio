@@ -70,8 +70,6 @@
 	border-radius: 10px;
 }
 
-
-
 .skills_logo{
 	display: flex;
 	justify-content: space-around;
@@ -103,12 +101,12 @@
 	border-radius: 10px 0px 0 10px;
 }
 
-.view{
+.skills .view{
 	display: flex;
 	justify-content: space-between;
 }
 
-.view a{
+.skills .view a{
 	font-size: 1.2rem;
 	color: brown;
 	font-weight: bold;
