@@ -19,7 +19,7 @@ const Projects = () => {
           </div>
           <div className="view">
             <a
-              href="https://ecommerce-yar6.onrender.com"
+              href="https://ecommerce-pearl-eta.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -41,6 +41,7 @@ const Projects = () => {
             <h4>School Management System</h4>
           </div>
           <div>
+            
             <p>
               This MERN-based School Management System offers user-specific
               features, allowing seamless login experiences for administrators,
