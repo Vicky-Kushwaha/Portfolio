@@ -1,31 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Playball&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playball&family=Ubuntu:ital,wght@0,400;1,300&display=swap");
 
-
-.navbar{
-	background-color: #0b1e3b;
+.navbar {
+  background-color: #0b1e3b;
 }
 
 .nav_heading {
-	font-size: 1.4rem;
-	link-style:none;
-	color: white;
-	cursor: pointer;
-	letter-spacing: 0.1rem;
-	font-family: 'Playball', cursive;
+  font-size: 1.4rem;
+  link-style: none;
+  color: white;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+  font-family: "Playball", cursive;
 }
 
 .navbar a {
-	color: white;
+  color: white;
+  transition: all 0.4s;
 }
 
-.collapse ul li a:hover{
-	color: brown;
+.collapse ul li a:hover {
+  color: brown;
 }
 
-.navbar-toggler{
-	background-color: white;
+.navbar-toggler {
+  background-color: white;
 }
 
-.collapse ul li{
-	padding: 0rem 1.5rem;
+.collapse ul li {
+  padding: 0rem 1.5rem;
 }

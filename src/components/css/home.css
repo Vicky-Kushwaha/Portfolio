@@ -1,136 +1,133 @@
-
-#home{
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-
+#home {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.little_about{
-	margin: 1.5rem 6rem
+.little_about {
+  margin: 1.5rem 6rem;
 }
 
-.img_container{
-	margin: 1.5rem 3rem
+.img_container {
+  margin: 1.5rem 3rem;
 }
 
-.Typewriter__cursor{
-	color: brown!important;
+.Typewriter__cursor {
+  color: brown !important;
 }
 
-.little_about p{
-	font-size: 3rem;
-	margin: 0;
-	letter-spacing: 0.12rem;
+.little_about p {
+  font-size: 3rem;
+  margin: 0;
+  letter-spacing: 0.12rem;
 }
 
-.little_about p span{
-	color: #e50ce5;
-
+.little_about p span {
+  color: #e50ce5;
 }
 
-
-.about_container{
-	margin: 2rem 0rem;
-	display: flex;
-	flex-wrap: wrap-reverse;
-	justify-content: center;
-	align-items: center;
+.about_container {
+  margin: 2rem 0rem;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
 }
 
-.about_section{
-	margin: 0rem 4rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 60%;
+.about_section {
+  margin: 0rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
 }
 
-.about_section div{
-	margin: 0.6rem;
-	word-spacing: 0.2rem;
-	font-size: 1.2rem;
+.about_section div {
+  margin: 0.6rem;
+  word-spacing: 0.2rem;
+  font-size: 1.2rem;
 }
 
-.skills_container{
-	display: flex;
-	flex-wrap: wrap;
+.skills_container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.heading{
-	margin: 1rem 4rem;
+.heading {
+  margin: 1rem 4rem;
 }
 
-.skills{
-	width: 33rem;
-	margin: 1rem 4rem;
-	background-color: #212549;
-	padding: 1rem;
-	border-radius: 10px;
+.skills {
+  width: 33rem;
+  margin: 1rem 4rem;
+  background-color: #212549;
+  padding: 1rem;
+  border-radius: 10px;
 }
 
-.skills_logo{
-	display: flex;
-	justify-content: space-around;
-	margin: 2rem 0;
+.skills_logo {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
 }
 
-.skills_logo div{
-	text-align: center;
+.skills_logo div {
+  text-align: center;
 }
 
-.percentage_indicator{
-	background-color: white;
-	width: 100%;
-	height: 1rem;
-	border-radius: 10px;
+.percentage_indicator {
+  background-color: white;
+  width: 100%;
+  height: 1rem;
+  border-radius: 10px;
 }
 
-.frontend_percentage{
-	background-color: violet;
-	width: 85%;
-	height: 1rem;
-	border-radius: 10px 0px 0 10px;
+.frontend_percentage {
+  background-color: violet;
+  width: 85%;
+  height: 1rem;
+  border-radius: 10px 0px 0 10px;
 }
 
-.backend_percentage{
-	background-color: violet;
-	width: 70%;
-	height: 1rem;
-	border-radius: 10px 0px 0 10px;
+.backend_percentage {
+  background-color: violet;
+  width: 70%;
+  height: 1rem;
+  border-radius: 10px 0px 0 10px;
 }
 
-.skills .view{
-	display: flex;
-	justify-content: space-between;
+.skills .view {
+  display: flex;
+  justify-content: space-between;
 }
 
-.skills .view a{
-	font-size: 1.2rem;
-	color: brown;
-	font-weight: bold;
+.skills .view a {
+  font-size: 1.2rem;
+  color: brown;
+  font-weight: bold;
 }
 
-.education{
-	text-align: center;
+.education {
+  text-align: center;
 }
 
-.education h4{
-	word-spacing: 0.2rem;
+.education h4 {
+  word-spacing: 0.2rem;
 }
 
-.btn{
-	margin: 1rem;
-	border:none;
-	color: white;
-	font-size: 1.5rem;
-	background-color: gray;
-	padding: 0.5rem 2rem;
+.btn {
+  margin: 1rem;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  background-color: gray;
+  padding: 0.5rem 2rem;
+  transition: all 0.4s ease;
 }
 
-.btn:hover{
-	color: white;
-	font-weight: bold;
-	background-color: gray;
+.btn:hover {
+  color: white;
+  transform: scale(1.1);
+  background-color: gray;
 }
